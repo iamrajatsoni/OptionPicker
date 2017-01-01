@@ -2,6 +2,7 @@ package me.rajatsoni.optionspicker;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -77,8 +78,8 @@ public class OptionPicker extends RelativeLayout {
         gd.setStroke(strokeWidth, Color.parseColor(color));
     }
 
-    public void setPivotBoxDrawableBackground(GradientDrawable gd) {
-        pivotBox.setBackgroundDrawable(gd);
+    public void setPivotBoxDrawableBackground(Drawable d) {
+        pivotBox.setBackgroundDrawable(d);
     }
 
     public void setPivotBoxBackgroundColor(int color){
