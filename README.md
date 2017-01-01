@@ -15,7 +15,7 @@ iPhone Style Option Picker for Android
     mOptionPicker.setOnItemSelectedListener(new OptionSelectorContainer.OnItemSelectedListener() {
         @Override
         public void onSelection(int index) {
-            mOptionPicker.updatePivotBoxStroke(index, 0xFFBDBDBD);
+            // Your Code here
         }
     });
 # Set Desired View Attributes for Selected and Unselected Items
@@ -32,7 +32,19 @@ iPhone Style Option Picker for Android
             unselectedTextView.setTypeface(Typeface.SANS_SERIF);
         }
     });
-# Use Your Own TextView as Items
+# Customization Intensity
     mOptionPicker.setCustomTextView(layoutId);
+    
+    mOptionPicker.updatePivotBoxStroke(int strokeWidth, int color);
+    mOptionPicker.updatePivotBoxStroke(int strokeWidth, String color);
+    
+    mOptionPicker.setPivotBoxDrawableBackground(Drawable d);
+    
+    mOptionPicker.setPivotBoxBackgroundColor(int color);
+    mOptionPicker.setPivotBoxBackgroundColor(String color)
+    
+# Supporting Methods
+    mOptionPicker.getSelectedItemIndex();
+    mOptionPicker.
 # iPhone Style by Default
-(:D
+iPhone theme by default
