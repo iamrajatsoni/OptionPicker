@@ -10,7 +10,9 @@ iPhone Style Option Picker for Android
     mArrayList.add("Option Item 4");
     mArrayList.add("Option Item 5");
 
-    mOptionPicker.render(mArrayList); -- or -- mOptionPicker.render(mArrayList,(up-down visble items count int));
+    mOptionPicker.render(mArrayList); 
+    -- or -- 
+    mOptionPicker.render(mArrayList,(up-down visble items count int));
 # Instant Callbacks
     mOptionPicker.setOnItemSelectedListener(new OptionSelectorContainer.OnItemSelectedListener() {
         @Override
@@ -45,6 +47,5 @@ iPhone Style Option Picker for Android
     
 # Supporting Methods
     mOptionPicker.getSelectedItemIndex();
-    mOptionPicker.
 # iPhone Style by Default
 iPhone theme by default
