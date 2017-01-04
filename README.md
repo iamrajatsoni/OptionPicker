@@ -1,6 +1,5 @@
 # OptionPicker
 iPhone Style Option Picker for Android
-![Alt text](http://rajatsoni.me/gif.gif?raw=true "iPhone Style Option Picker")
 # Extremely Easy to Use!
     OptionPicker mOptionPicker = (OptionPicker) findViewById(R.id.iphone_style_option);
 
