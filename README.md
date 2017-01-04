@@ -1,5 +1,6 @@
 # OptionPicker
 iPhone Style Option Picker for Android
+![Alt text](http://rajatsoni.me/gif.gif?raw=true "iPhone Style Option Picker")
 # Extremely Easy to Use!
     OptionPicker mOptionPicker = (OptionPicker) findViewById(R.id.iphone_style_option);
 
@@ -34,7 +35,7 @@ iPhone Style Option Picker for Android
             unselectedTextView.setTypeface(Typeface.SANS_SERIF);
         }
     });
-# Customization Intensity
+# Customizations
     mOptionPicker.setCustomTextView(layoutId);
     
     mOptionPicker.updatePivotBoxStroke(int strokeWidth, int color);
